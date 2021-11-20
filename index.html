@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel = "stylesheet" href="barberwebsite.css">
+    <link rel = "stylesheet" href="style.css">
     <title>AZ's Barbershop</title>
   </head>
 
   <body>
 
     <header>
+      <h1>
+          <object data="Barbershop Logo.svg" width=150 class="logo"></object>
+      </h1>
       <nav>
         <ul>
-          <li><a href="index.html"></a>Home</li>
-          <li><a href="MeetBarber.html"></a>Our Barbers</li>
-          <li>Contact</li>
+            <li><a href="#homepage">Home</a></li>
+            <li><a href="#pricing">Services</a></li>
+            <li><a href="#meetbarber">Our Barbers</a></li>
+            <li><a href="#ourlocation">Where to Find Us</a></li>
         </ul>
       </nav>
-      <h1>
-        AZ's Barber Shop
-      </h1>
-      <p>
-        The best barbershop in Worcester
-      </p>
     </header>
 
-    <section>
-      <table>
-        <tr>
-          <th>Service</th>
-          <th>Price</th>
-        </tr>
+    <section class=homepage id="homepage">
+      <h1 class=homepageheader> Welcome to AZ's Barbershop</h1>
+      <h2 class=homepageheader> Keeping Worcester Fresh Since 2021</h2>
+    </section> 
+
+    <section class= "pricing" id= "pricing">
+      <h1 class=pricingheader>MORE THAN A HAIRCUT</h1>
+      <p class=pricingbody> Your experience at the barbershop should go beyond a great haircut. We take pride in detailing every aspect of your experience
+         from the feel of our old-fashioned leather barber chairs to the hot towel after your cut. When you choose AZ's, you choose 5-star service.
+      </p>
+      <table class= "pricingtable">
         <tr>
           <td>Classic Haircut</td>
           <td>$15</td>
         </tr>
         <tr>
-          <td>Classic Haircut + Shave</td>
+          <td>Shampoo + Classic Haircut</td>
           <td>$20</td>
         </tr>
         <tr>
@@ -50,6 +53,45 @@
           <td>$25</td>
         </tr>
       </table>
-    </section> 
+    </section>
+
+    <section class= "bookservice">
+        <div class="bookserviceheader">
+          <a href="#homepage"><div class="bookservicebutton"> Book An Appointment</div></a>
+        </div>
+    </section>
+
+    <section class= "meetbarber" id= "meetbarber">
+      <h1 class= "meetbarberheader">Meet Our Barbers</h1>
+      <table class="barbertable">
+        <tr class=barberlineup>
+          <td><img src="barber4.jpeg" class="barber4"></td>
+          <td><img src="barber2.jpeg" class="barber2"></td>
+          <td><img src="barber3.jpeg" class="barber3"></td>
+        </tr>
+        <tr class="barbernames">
+          <td>Serg Man</td>
+          <td>Lincoln Trought</td>
+          <td>Joakim Jiminez</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="ourlocation" id="ourlocation">
+      <h1 class="locationheader">
+        Where to Find Us
+      </h1>
+      <h2 class="locationbody">
+        <table>
+          <tr>
+            <td class="tablebody"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.3670038175237!2d-71.8021783852406!3d42.27068854873475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4065cf06a2fe1%3A0x10d0de011f3b3cee!2s100%20Main%20St%2C%20Worcester%2C%20MA%2001605!5e0!3m2!1sen!2sus!4v1637196546947!5m2!1sen!2sus"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe></td>
+            <td class="tablebody"><h2>Hours</h2><h3>Monday: 9am-7pm</h3><h3>Tuesday: 9am-7pm</h3><h3>Wednesday: 9am-7pm</h3><h3>Thursday: 9am-7pm</h3><h3>Friday: 9am-7pm</h3><h3>Saturday: 9am-7pm</h3><h3>Sunday: Closed</h3></td>
+            <td class="tablebody"><h2>508-555-5555</h2><h2>IG: @AZBarber</h2><h2>Facebook: @AZBarber</h2><h2>Twitter: @AZBarber</h2></td>
+        </tr>
+      </table>
+      </h2>
+    </section>
+
   </body>
 </html>

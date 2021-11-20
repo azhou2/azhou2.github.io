@@ -1,8 +1,186 @@
 
 header {
     font-family: 'Courier New', Courier, monospace;
+    background-color:white;
+    color:black;
+    text-align: center;
+    padding: 0;
 }
 
 body {
+    margin:0;
+    padding:0;
     font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+}
+
+a {font-style: oblique;
+    color: black;
+    font-weight: bolder;
+}
+
+.homepage{
+    margin:0;
+    padding:0;
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 75%; 
+}
+
+.homepageheader{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50pt;
+    font-weight: bolder;
+    -webkit-text-stroke:2px black ;
+    text-align: center;
+    color:white;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.pricingtable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing{
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 5%;
+}
+.pricingheader{
+    font-size: 50px;
+    text-align: center;
+}
+
+.pricingbody{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pricingtable{
+    color: #cfe2f3ff;
+    -webkit-text-stroke:1px black;
+    border: 3px solid #cfe2f3ff;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.bookservice{
+    background-image: url(background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+    align-content: center;
+}
+
+.bookservicebackground{
+    align-content: center;
+    vertical-align: middle;
+    display: flex;
+}
+
+.bookserviceheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.bookservicebutton{
+    height: 100px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    opacity: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 35pt;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.meetbarber{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+.meetbarberheader{
+    font-size: 50px;
+}
+.barber4{
+    width:50%;
+    margin:0;
+    padding:0;
+    border: 10px solid #cfe2f3ff;
+}
+
+.barber2{
+    width:50%;
+    margin:0;
+    padding:0;
+    border: 10px solid #cfe2f3ff;
+}
+
+.barber3{
+    width:50%;
+    margin:0;
+    padding:0;
+    border: 10px solid #cfe2f3ff;
+}
+
+.barbernames{
+    font-size: 25px;
+    color: #cfe2f3ff;
+    -webkit-text-stroke:1px black;
+}
+
+.ourlocation{
+    background-image: url(background2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 75%;
+}
+
+.locationheader{
+    color: white;
+    -webkit-text-stroke:2px black ;
+    text-align: center;
+    font-size: 50px;
+    height: 75px;
+    opacity: 100%;
+}
+
+.locationbody{
+    height: 500px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.locationtablebody{
+    justify-content: center;
+}
+
+.tablebody{
+    justify-content: center;
+    width: 33%;
+    vertical-align: top;
 }
