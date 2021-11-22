@@ -173,6 +173,7 @@ a {font-style: oblique;
     height: 500px;
     color: white;
     -webkit-text-stroke: 1px black;
+    font-weight: bold;
 }
 
 .locationtablebody{
